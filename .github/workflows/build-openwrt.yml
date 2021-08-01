@@ -42,7 +42,7 @@ jobs:
         ARGS: ${{ secrets.ARGS }}
         REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
         REMOTE_USER: ${{ secrets.REMOTE_USER }}
-        REMOTE_PORT: ${{ secrets.REMOVE_PORT }}
+        REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
 
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
