@@ -42,7 +42,7 @@ jobs:
     steps:
 
     - name: Deploy to Staging server
-     uses: easingthemes/ssh-deploy@main
+      uses: easingthemes/ssh-deploy@main
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
         ARGS: ${{ secrets.ARGS }}
